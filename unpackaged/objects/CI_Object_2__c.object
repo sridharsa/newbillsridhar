@@ -53,14 +53,6 @@
 	<enableSharing>true</enableSharing>
 	<enableStreamingApi>true</enableStreamingApi>
 	<fields>
-		<fullName>Field1__c</fullName>
-		<defaultValue>false</defaultValue>
-		<externalId>false</externalId>
-		<label>Field1</label>
-		<trackTrending>false</trackTrending>
-		<type>Checkbox</type>
-	</fields>
-	<fields>
 		<fullName>Field2__c</fullName>
 		<defaultValue>false</defaultValue>
 		<externalId>false</externalId>
