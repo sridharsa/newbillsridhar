@@ -43,66 +43,81 @@
 	<allowInChatterGroups>false</allowInChatterGroups>
 	<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
 	<deploymentStatus>Deployed</deploymentStatus>
-	<description>This is the Continuous Integration Object234</description>
-	<enableActivities>true</enableActivities>
+	<enableActivities>false</enableActivities>
 	<enableBulkApi>true</enableBulkApi>
 	<enableChangeDataCapture>false</enableChangeDataCapture>
 	<enableFeeds>false</enableFeeds>
-	<enableHistory>true</enableHistory>
-	<enableReports>true</enableReports>
+	<enableHistory>false</enableHistory>
+	<enableReports>false</enableReports>
 	<enableSearch>true</enableSearch>
 	<enableSharing>true</enableSharing>
 	<enableStreamingApi>true</enableStreamingApi>
 	<fields>
-		<fullName>CI_Text2__c</fullName>
+		<fullName>BLND_Destination_Link__c</fullName>
 		<externalId>false</externalId>
-		<label>CI Text2</label>
-		<length>56</length>
+		<label>Destination Link</label>
+		<length>40</length>
 		<required>false</required>
-		<trackHistory>false</trackHistory>
 		<trackTrending>false</trackTrending>
 		<type>Text</type>
 		<unique>false</unique>
 	</fields>
 	<fields>
-		<fullName>CI_Text5__c</fullName>
-		<defaultValue>false</defaultValue>
+		<fullName>BLND_Expansion__c</fullName>
 		<externalId>false</externalId>
-		<label>CI Text5</label>
-		<trackHistory>false</trackHistory>
+		<label>Expansion</label>
+		<length>32000</length>
 		<trackTrending>false</trackTrending>
-		<type>Checkbox</type>
+		<type>LongTextArea</type>
+		<visibleLines>3</visibleLines>
 	</fields>
 	<fields>
-		<fullName>CI_Text__c</fullName>
+		<fullName>BLND_Extra_Field__c</fullName>
 		<externalId>false</externalId>
-		<label>CI Text</label>
-		<length>55</length>
+		<label>Extra Field</label>
+		<length>255</length>
 		<required>false</required>
-		<trackHistory>false</trackHistory>
 		<trackTrending>false</trackTrending>
 		<type>Text</type>
 		<unique>false</unique>
 	</fields>
 	<fields>
-		<fullName>CI_text3__c</fullName>
+		<fullName>BLND_Purpose__c</fullName>
 		<externalId>false</externalId>
-		<label>CI text3</label>
-		<length>57</length>
+		<label>Purpose</label>
+		<length>80</length>
 		<required>false</required>
-		<trackHistory>false</trackHistory>
 		<trackTrending>false</trackTrending>
 		<type>Text</type>
 		<unique>false</unique>
 	</fields>
-	<label>Continuous Object</label>
+	<fields>
+		<fullName>BLND_Source_Link__c</fullName>
+		<externalId>false</externalId>
+		<label>Source Link</label>
+		<length>40</length>
+		<required>false</required>
+		<trackTrending>false</trackTrending>
+		<type>Text</type>
+		<unique>false</unique>
+	</fields>
+	<fields>
+		<fullName>BLND_Version__c</fullName>
+		<externalId>false</externalId>
+		<label>Version</label>
+		<precision>4</precision>
+		<required>false</required>
+		<scale>2</scale>
+		<trackTrending>false</trackTrending>
+		<type>Number</type>
+		<unique>false</unique>
+	</fields>
+	<label>DreamTeam Linker</label>
 	<nameField>
-		<displayFormat>{0}</displayFormat>
-		<label>Continuous Object Name</label>
-		<trackHistory>false</trackHistory>
-		<type>AutoNumber</type>
+		<label>Linker Name</label>
+		<type>Text</type>
 	</nameField>
-	<pluralLabel>CI Objects</pluralLabel>
+	<pluralLabel>DreamTeam Linkers</pluralLabel>
 	<searchLayouts/>
 	<sharingModel>ReadWrite</sharingModel>
 	<visibility>Public</visibility>

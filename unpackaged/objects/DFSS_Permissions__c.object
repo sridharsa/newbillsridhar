@@ -43,66 +43,89 @@
 	<allowInChatterGroups>false</allowInChatterGroups>
 	<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
 	<deploymentStatus>Deployed</deploymentStatus>
-	<description>This is the Continuous Integration Object234</description>
-	<enableActivities>true</enableActivities>
+	<description>DreamFactory SnapShot Permissions Management</description>
+	<enableActivities>false</enableActivities>
 	<enableBulkApi>true</enableBulkApi>
 	<enableChangeDataCapture>false</enableChangeDataCapture>
+	<enableEnhancedLookup>false</enableEnhancedLookup>
 	<enableFeeds>false</enableFeeds>
-	<enableHistory>true</enableHistory>
-	<enableReports>true</enableReports>
+	<enableHistory>false</enableHistory>
+	<enableReports>false</enableReports>
 	<enableSearch>true</enableSearch>
 	<enableSharing>true</enableSharing>
 	<enableStreamingApi>true</enableStreamingApi>
 	<fields>
-		<fullName>CI_Text2__c</fullName>
+		<fullName>Data__c</fullName>
+		<description>Main field for Permissions data</description>
 		<externalId>false</externalId>
-		<label>CI Text2</label>
-		<length>56</length>
-		<required>false</required>
-		<trackHistory>false</trackHistory>
+		<label>Data</label>
+		<length>32000</length>
 		<trackTrending>false</trackTrending>
-		<type>Text</type>
-		<unique>false</unique>
+		<type>LongTextArea</type>
+		<visibleLines>3</visibleLines>
 	</fields>
 	<fields>
-		<fullName>CI_Text5__c</fullName>
-		<defaultValue>false</defaultValue>
+		<fullName>Expansion__c</fullName>
 		<externalId>false</externalId>
-		<label>CI Text5</label>
-		<trackHistory>false</trackHistory>
+		<label>Expansion</label>
+		<length>32000</length>
 		<trackTrending>false</trackTrending>
-		<type>Checkbox</type>
+		<type>LongTextArea</type>
+		<visibleLines>3</visibleLines>
 	</fields>
 	<fields>
-		<fullName>CI_Text__c</fullName>
+		<fullName>Extra_Field__c</fullName>
 		<externalId>false</externalId>
-		<label>CI Text</label>
-		<length>55</length>
+		<label>Extra Field</label>
 		<required>false</required>
-		<trackHistory>false</trackHistory>
 		<trackTrending>false</trackTrending>
-		<type>Text</type>
-		<unique>false</unique>
+		<type>TextArea</type>
 	</fields>
 	<fields>
-		<fullName>CI_text3__c</fullName>
+		<fullName>Over__c</fullName>
+		<description>Overflow field for Permissions data</description>
 		<externalId>false</externalId>
-		<label>CI text3</label>
-		<length>57</length>
-		<required>false</required>
-		<trackHistory>false</trackHistory>
+		<label>Over</label>
+		<length>32000</length>
 		<trackTrending>false</trackTrending>
-		<type>Text</type>
+		<type>LongTextArea</type>
+		<visibleLines>3</visibleLines>
+	</fields>
+	<fields>
+		<fullName>User_Link__c</fullName>
+		<deleteConstraint>SetNull</deleteConstraint>
+		<description>Lookup to User to whom these permissions are applied</description>
+		<externalId>false</externalId>
+		<inlineHelpText>User to whom these permissions are applied</inlineHelpText>
+		<label>User Link</label>
+		<referenceTo>User</referenceTo>
+		<relationshipName>SnapShot_Permissions</relationshipName>
+		<required>false</required>
+		<trackTrending>false</trackTrending>
+		<type>Lookup</type>
+	</fields>
+	<fields>
+		<fullName>Version__c</fullName>
+		<externalId>false</externalId>
+		<label>Version</label>
+		<precision>4</precision>
+		<required>false</required>
+		<scale>2</scale>
+		<trackTrending>false</trackTrending>
+		<type>Number</type>
 		<unique>false</unique>
 	</fields>
-	<label>Continuous Object</label>
+	<label>SnapShot Permissions</label>
+	<listViews>
+		<fullName>All</fullName>
+		<filterScope>Everything</filterScope>
+		<label>All</label>
+	</listViews>
 	<nameField>
-		<displayFormat>{0}</displayFormat>
-		<label>Continuous Object Name</label>
-		<trackHistory>false</trackHistory>
-		<type>AutoNumber</type>
+		<label>Snapshot Permissions Name</label>
+		<type>Text</type>
 	</nameField>
-	<pluralLabel>CI Objects</pluralLabel>
+	<pluralLabel>SnapShot Permissions</pluralLabel>
 	<searchLayouts/>
 	<sharingModel>ReadWrite</sharingModel>
 	<visibility>Public</visibility>

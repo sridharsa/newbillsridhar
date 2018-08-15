@@ -43,66 +43,93 @@
 	<allowInChatterGroups>false</allowInChatterGroups>
 	<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
 	<deploymentStatus>Deployed</deploymentStatus>
-	<description>This is the Continuous Integration Object234</description>
-	<enableActivities>true</enableActivities>
+	<enableActivities>false</enableActivities>
 	<enableBulkApi>true</enableBulkApi>
 	<enableChangeDataCapture>false</enableChangeDataCapture>
 	<enableFeeds>false</enableFeeds>
-	<enableHistory>true</enableHistory>
-	<enableReports>true</enableReports>
+	<enableHistory>false</enableHistory>
+	<enableReports>false</enableReports>
 	<enableSearch>true</enableSearch>
 	<enableSharing>true</enableSharing>
 	<enableStreamingApi>true</enableStreamingApi>
 	<fields>
-		<fullName>CI_Text2__c</fullName>
+		<fullName>BLND_Application__c</fullName>
 		<externalId>false</externalId>
-		<label>CI Text2</label>
-		<length>56</length>
+		<label>Application</label>
 		<required>false</required>
-		<trackHistory>false</trackHistory>
 		<trackTrending>false</trackTrending>
-		<type>Text</type>
-		<unique>false</unique>
+		<type>TextArea</type>
 	</fields>
 	<fields>
-		<fullName>CI_Text5__c</fullName>
+		<fullName>BLND_Data__c</fullName>
+		<externalId>false</externalId>
+		<label>Data</label>
+		<length>32000</length>
+		<trackTrending>false</trackTrending>
+		<type>LongTextArea</type>
+		<visibleLines>3</visibleLines>
+	</fields>
+	<fields>
+		<fullName>BLND_Description__c</fullName>
+		<externalId>false</externalId>
+		<label>Description</label>
+		<required>false</required>
+		<trackTrending>false</trackTrending>
+		<type>TextArea</type>
+	</fields>
+	<fields>
+		<fullName>BLND_Expansion__c</fullName>
+		<externalId>false</externalId>
+		<label>Expansion</label>
+		<length>32000</length>
+		<trackTrending>false</trackTrending>
+		<type>LongTextArea</type>
+		<visibleLines>3</visibleLines>
+	</fields>
+	<fields>
+		<fullName>BLND_Extra_Field__c</fullName>
+		<externalId>false</externalId>
+		<label>Extra Field</label>
+		<required>false</required>
+		<trackTrending>false</trackTrending>
+		<type>TextArea</type>
+	</fields>
+	<fields>
+		<fullName>BLND_Owner__c</fullName>
+		<deleteConstraint>SetNull</deleteConstraint>
+		<externalId>false</externalId>
+		<label>Owner</label>
+		<referenceTo>User</referenceTo>
+		<relationshipName>R00N30000002PYjhEAG</relationshipName>
+		<required>false</required>
+		<trackTrending>false</trackTrending>
+		<type>Lookup</type>
+	</fields>
+	<fields>
+		<fullName>BLND_Private__c</fullName>
 		<defaultValue>false</defaultValue>
 		<externalId>false</externalId>
-		<label>CI Text5</label>
-		<trackHistory>false</trackHistory>
+		<label>Private</label>
 		<trackTrending>false</trackTrending>
 		<type>Checkbox</type>
 	</fields>
 	<fields>
-		<fullName>CI_Text__c</fullName>
+		<fullName>BLND_Version__c</fullName>
 		<externalId>false</externalId>
-		<label>CI Text</label>
-		<length>55</length>
+		<label>Version</label>
+		<precision>4</precision>
 		<required>false</required>
-		<trackHistory>false</trackHistory>
+		<scale>2</scale>
 		<trackTrending>false</trackTrending>
-		<type>Text</type>
+		<type>Number</type>
 		<unique>false</unique>
 	</fields>
-	<fields>
-		<fullName>CI_text3__c</fullName>
-		<externalId>false</externalId>
-		<label>CI text3</label>
-		<length>57</length>
-		<required>false</required>
-		<trackHistory>false</trackHistory>
-		<trackTrending>false</trackTrending>
-		<type>Text</type>
-		<unique>false</unique>
-	</fields>
-	<label>Continuous Object</label>
+	<label>DreamFactory Shared View</label>
 	<nameField>
-		<displayFormat>{0}</displayFormat>
-		<label>Continuous Object Name</label>
-		<trackHistory>false</trackHistory>
-		<type>AutoNumber</type>
+		<label>Name</label>
+		<type>Text</type>
 	</nameField>
-	<pluralLabel>CI Objects</pluralLabel>
+	<pluralLabel>DreamFactory Shared Views</pluralLabel>
 	<searchLayouts/>
 	<sharingModel>ReadWrite</sharingModel>
 	<visibility>Public</visibility>

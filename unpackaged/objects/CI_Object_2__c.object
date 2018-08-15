@@ -43,66 +43,29 @@
 	<allowInChatterGroups>false</allowInChatterGroups>
 	<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
 	<deploymentStatus>Deployed</deploymentStatus>
-	<description>This is the Continuous Integration Object234</description>
-	<enableActivities>true</enableActivities>
+	<enableActivities>false</enableActivities>
 	<enableBulkApi>true</enableBulkApi>
 	<enableChangeDataCapture>false</enableChangeDataCapture>
 	<enableFeeds>false</enableFeeds>
-	<enableHistory>true</enableHistory>
-	<enableReports>true</enableReports>
-	<enableSearch>true</enableSearch>
+	<enableHistory>false</enableHistory>
+	<enableReports>false</enableReports>
+	<enableSearch>false</enableSearch>
 	<enableSharing>true</enableSharing>
 	<enableStreamingApi>true</enableStreamingApi>
 	<fields>
-		<fullName>CI_Text2__c</fullName>
-		<externalId>false</externalId>
-		<label>CI Text2</label>
-		<length>56</length>
-		<required>false</required>
-		<trackHistory>false</trackHistory>
-		<trackTrending>false</trackTrending>
-		<type>Text</type>
-		<unique>false</unique>
-	</fields>
-	<fields>
-		<fullName>CI_Text5__c</fullName>
+		<fullName>Field1__c</fullName>
 		<defaultValue>false</defaultValue>
 		<externalId>false</externalId>
-		<label>CI Text5</label>
-		<trackHistory>false</trackHistory>
+		<label>Field1</label>
 		<trackTrending>false</trackTrending>
 		<type>Checkbox</type>
 	</fields>
-	<fields>
-		<fullName>CI_Text__c</fullName>
-		<externalId>false</externalId>
-		<label>CI Text</label>
-		<length>55</length>
-		<required>false</required>
-		<trackHistory>false</trackHistory>
-		<trackTrending>false</trackTrending>
-		<type>Text</type>
-		<unique>false</unique>
-	</fields>
-	<fields>
-		<fullName>CI_text3__c</fullName>
-		<externalId>false</externalId>
-		<label>CI text3</label>
-		<length>57</length>
-		<required>false</required>
-		<trackHistory>false</trackHistory>
-		<trackTrending>false</trackTrending>
-		<type>Text</type>
-		<unique>false</unique>
-	</fields>
-	<label>Continuous Object</label>
+	<label>CI Object 2</label>
 	<nameField>
-		<displayFormat>{0}</displayFormat>
-		<label>Continuous Object Name</label>
-		<trackHistory>false</trackHistory>
-		<type>AutoNumber</type>
+		<label>CI Object 2 Name</label>
+		<type>Text</type>
 	</nameField>
-	<pluralLabel>CI Objects</pluralLabel>
+	<pluralLabel>CO Objects 2</pluralLabel>
 	<searchLayouts/>
 	<sharingModel>ReadWrite</sharingModel>
 	<visibility>Public</visibility>
