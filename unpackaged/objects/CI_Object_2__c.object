@@ -77,6 +77,14 @@
 		<type>Checkbox</type>
 	</fields>
 	<fields>
+		<fullName>Field4__c</fullName>
+		<defaultValue>false</defaultValue>
+		<externalId>false</externalId>
+		<label>Field4</label>
+		<trackTrending>false</trackTrending>
+		<type>Checkbox</type>
+	</fields>
+	<fields>
 		<fullName>Field_4__c</fullName>
 		<defaultValue>false</defaultValue>
 		<externalId>false</externalId>
