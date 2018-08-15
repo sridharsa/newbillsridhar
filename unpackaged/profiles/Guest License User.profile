@@ -1717,6 +1717,11 @@
 		<readable>false</readable>
 	</fieldPermissions>
 	<fieldPermissions>
+		<editable>false</editable>
+		<field>CI_Object_2__c.Field_4__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
 		<editable>true</editable>
 		<field>Campaign.ActualCost</field>
 		<readable>true</readable>
