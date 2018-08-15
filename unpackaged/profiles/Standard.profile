@@ -1708,11 +1708,6 @@
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>true</editable>
-		<field>CI_Object_2__c.Field3__c</field>
-		<readable>true</readable>
-	</fieldPermissions>
-	<fieldPermissions>
-		<editable>true</editable>
 		<field>CI_Object_2__c.Field4__c</field>
 		<readable>true</readable>
 	</fieldPermissions>
@@ -1720,6 +1715,16 @@
 		<editable>true</editable>
 		<field>CI_Object_2__c.Field_4__c</field>
 		<readable>true</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>true</editable>
+		<field>CI_Object_2__c.Field_6__c</field>
+		<readable>true</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>CI_Object_2__c.Field_7__c</field>
+		<readable>false</readable>
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>true</editable>

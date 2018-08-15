@@ -43,13 +43,14 @@
 	<allowInChatterGroups>false</allowInChatterGroups>
 	<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
 	<deploymentStatus>Deployed</deploymentStatus>
-	<enableActivities>false</enableActivities>
+	<description>My Desc</description>
+	<enableActivities>true</enableActivities>
 	<enableBulkApi>true</enableBulkApi>
 	<enableChangeDataCapture>false</enableChangeDataCapture>
 	<enableFeeds>false</enableFeeds>
-	<enableHistory>false</enableHistory>
-	<enableReports>false</enableReports>
-	<enableSearch>false</enableSearch>
+	<enableHistory>true</enableHistory>
+	<enableReports>true</enableReports>
+	<enableSearch>true</enableSearch>
 	<enableSharing>true</enableSharing>
 	<enableStreamingApi>true</enableStreamingApi>
 	<fields>
@@ -57,14 +58,7 @@
 		<defaultValue>false</defaultValue>
 		<externalId>false</externalId>
 		<label>Field2</label>
-		<trackTrending>false</trackTrending>
-		<type>Checkbox</type>
-	</fields>
-	<fields>
-		<fullName>Field3__c</fullName>
-		<defaultValue>false</defaultValue>
-		<externalId>false</externalId>
-		<label>Field3</label>
+		<trackHistory>false</trackHistory>
 		<trackTrending>false</trackTrending>
 		<type>Checkbox</type>
 	</fields>
@@ -73,6 +67,7 @@
 		<defaultValue>false</defaultValue>
 		<externalId>false</externalId>
 		<label>Field4</label>
+		<trackHistory>false</trackHistory>
 		<trackTrending>false</trackTrending>
 		<type>Checkbox</type>
 	</fields>
@@ -81,12 +76,32 @@
 		<defaultValue>false</defaultValue>
 		<externalId>false</externalId>
 		<label>Field 4</label>
+		<trackHistory>false</trackHistory>
+		<trackTrending>false</trackTrending>
+		<type>Checkbox</type>
+	</fields>
+	<fields>
+		<fullName>Field_6__c</fullName>
+		<defaultValue>false</defaultValue>
+		<externalId>false</externalId>
+		<label>Field 6</label>
+		<trackHistory>false</trackHistory>
+		<trackTrending>false</trackTrending>
+		<type>Checkbox</type>
+	</fields>
+	<fields>
+		<fullName>Field_7__c</fullName>
+		<defaultValue>false</defaultValue>
+		<externalId>false</externalId>
+		<label>Field 7</label>
+		<trackHistory>false</trackHistory>
 		<trackTrending>false</trackTrending>
 		<type>Checkbox</type>
 	</fields>
 	<label>CI Object 2</label>
 	<nameField>
 		<label>CI Object 2 Name</label>
+		<trackHistory>false</trackHistory>
 		<type>Text</type>
 	</nameField>
 	<pluralLabel>CO Objects 2</pluralLabel>
