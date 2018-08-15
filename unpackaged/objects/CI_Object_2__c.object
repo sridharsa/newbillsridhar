@@ -43,7 +43,7 @@
 	<allowInChatterGroups>false</allowInChatterGroups>
 	<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
 	<deploymentStatus>Deployed</deploymentStatus>
-	<description>My Desc</description>
+	<description>My Desc - for propagation</description>
 	<enableActivities>true</enableActivities>
 	<enableBulkApi>true</enableBulkApi>
 	<enableChangeDataCapture>false</enableChangeDataCapture>
@@ -53,6 +53,15 @@
 	<enableSearch>true</enableSearch>
 	<enableSharing>true</enableSharing>
 	<enableStreamingApi>true</enableStreamingApi>
+	<fields>
+		<fullName>Field10__c</fullName>
+		<defaultValue>false</defaultValue>
+		<externalId>false</externalId>
+		<label>Field10</label>
+		<trackHistory>false</trackHistory>
+		<trackTrending>false</trackTrending>
+		<type>Checkbox</type>
+	</fields>
 	<fields>
 		<fullName>Field2__c</fullName>
 		<defaultValue>false</defaultValue>

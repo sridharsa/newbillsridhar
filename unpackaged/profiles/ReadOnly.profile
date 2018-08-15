@@ -1703,6 +1703,11 @@
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>false</editable>
+		<field>CI_Object_2__c.Field10__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
 		<field>CI_Object_2__c.Field2__c</field>
 		<readable>false</readable>
 	</fieldPermissions>
