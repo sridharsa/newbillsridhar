@@ -68,6 +68,14 @@
 		<trackTrending>false</trackTrending>
 		<type>Checkbox</type>
 	</fields>
+	<fields>
+		<fullName>Field3__c</fullName>
+		<defaultValue>false</defaultValue>
+		<externalId>false</externalId>
+		<label>Field3</label>
+		<trackTrending>false</trackTrending>
+		<type>Checkbox</type>
+	</fields>
 	<label>CI Object 2</label>
 	<nameField>
 		<label>CI Object 2 Name</label>
