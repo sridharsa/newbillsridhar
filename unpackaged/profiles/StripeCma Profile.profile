@@ -1713,6 +1713,16 @@
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>false</editable>
+		<field>CI_Object_2__c.Field5__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>CI_Object_2__c.Field7__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
 		<field>CI_Object_2__c.Field_4__c</field>
 		<readable>false</readable>
 	</fieldPermissions>
@@ -2103,12 +2113,22 @@
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>false</editable>
+		<field>Continuous_Object__c.CI_Test_5__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
 		<field>Continuous_Object__c.CI_Text2__c</field>
 		<readable>false</readable>
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>false</editable>
 		<field>Continuous_Object__c.CI_Text5__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object__c.CI_Text_4__c</field>
 		<readable>false</readable>
 	</fieldPermissions>
 	<fieldPermissions>

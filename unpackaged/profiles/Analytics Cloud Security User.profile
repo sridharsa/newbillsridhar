@@ -12,9 +12,9 @@
 		<readable>true</readable>
 	</fieldPermissions>
 	<fieldPermissions>
-		<editable>false</editable>
+		<editable>true</editable>
 		<field>Account.Active__c</field>
-		<readable>false</readable>
+		<readable>true</readable>
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>false</editable>
@@ -1702,14 +1702,24 @@
 		<readable>true</readable>
 	</fieldPermissions>
 	<fieldPermissions>
-		<editable>true</editable>
+		<editable>false</editable>
 		<field>CI_Object_2__c.Field2__c</field>
-		<readable>true</readable>
+		<readable>false</readable>
 	</fieldPermissions>
 	<fieldPermissions>
-		<editable>true</editable>
+		<editable>false</editable>
 		<field>CI_Object_2__c.Field4__c</field>
-		<readable>true</readable>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>CI_Object_2__c.Field5__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>CI_Object_2__c.Field7__c</field>
+		<readable>false</readable>
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>true</editable>
@@ -1717,9 +1727,9 @@
 		<readable>true</readable>
 	</fieldPermissions>
 	<fieldPermissions>
-		<editable>true</editable>
+		<editable>false</editable>
 		<field>CI_Object_2__c.Field_6__c</field>
-		<readable>true</readable>
+		<readable>false</readable>
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>true</editable>
@@ -2102,6 +2112,11 @@
 		<readable>true</readable>
 	</fieldPermissions>
 	<fieldPermissions>
+		<editable>true</editable>
+		<field>Continuous_Object__c.CI_Test_5__c</field>
+		<readable>true</readable>
+	</fieldPermissions>
+	<fieldPermissions>
 		<editable>false</editable>
 		<field>Continuous_Object__c.CI_Text2__c</field>
 		<readable>false</readable>
@@ -2110,6 +2125,11 @@
 		<editable>true</editable>
 		<field>Continuous_Object__c.CI_Text5__c</field>
 		<readable>true</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object__c.CI_Text_4__c</field>
+		<readable>false</readable>
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>false</editable>
@@ -3152,7 +3172,7 @@
 		<allowRead>true</allowRead>
 		<modifyAllRecords>false</modifyAllRecords>
 		<object>Idea</object>
-		<viewAllRecords>true</viewAllRecords>
+		<viewAllRecords>false</viewAllRecords>
 	</objectPermissions>
 	<objectPermissions>
 		<allowCreate>false</allowCreate>
@@ -3197,7 +3217,7 @@
 		<allowRead>true</allowRead>
 		<modifyAllRecords>false</modifyAllRecords>
 		<object>Pricebook2</object>
-		<viewAllRecords>true</viewAllRecords>
+		<viewAllRecords>false</viewAllRecords>
 	</objectPermissions>
 	<objectPermissions>
 		<allowCreate>false</allowCreate>
@@ -3206,7 +3226,7 @@
 		<allowRead>true</allowRead>
 		<modifyAllRecords>false</modifyAllRecords>
 		<object>Product2</object>
-		<viewAllRecords>true</viewAllRecords>
+		<viewAllRecords>false</viewAllRecords>
 	</objectPermissions>
 	<objectPermissions>
 		<allowCreate>false</allowCreate>
