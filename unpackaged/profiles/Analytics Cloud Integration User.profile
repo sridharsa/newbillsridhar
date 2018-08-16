@@ -2117,6 +2117,56 @@
 		<readable>true</readable>
 	</fieldPermissions>
 	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_4__c.CI_Text2__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_4__c.CI_Text_14__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_4__c.CI_Text_4__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_4__c.CI_Text__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_4__c.CI_text3__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_5__c.CI_Text2__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_5__c.CI_Text_14__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_5__c.CI_Text_4__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_5__c.CI_Text__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>Continuous_Object_5__c.CI_text3__c</field>
+		<readable>false</readable>
+	</fieldPermissions>
+	<fieldPermissions>
 		<editable>true</editable>
 		<field>Continuous_Object__c.CI_Test_5__c</field>
 		<readable>true</readable>
@@ -3339,6 +3389,24 @@
 		<allowRead>true</allowRead>
 		<modifyAllRecords>false</modifyAllRecords>
 		<object>Contact</object>
+		<viewAllRecords>true</viewAllRecords>
+	</objectPermissions>
+	<objectPermissions>
+		<allowCreate>false</allowCreate>
+		<allowDelete>false</allowDelete>
+		<allowEdit>false</allowEdit>
+		<allowRead>true</allowRead>
+		<modifyAllRecords>false</modifyAllRecords>
+		<object>Continuous_Object_4__c</object>
+		<viewAllRecords>true</viewAllRecords>
+	</objectPermissions>
+	<objectPermissions>
+		<allowCreate>false</allowCreate>
+		<allowDelete>false</allowDelete>
+		<allowEdit>false</allowEdit>
+		<allowRead>true</allowRead>
+		<modifyAllRecords>false</modifyAllRecords>
+		<object>Continuous_Object_5__c</object>
 		<viewAllRecords>true</viewAllRecords>
 	</objectPermissions>
 	<objectPermissions>
